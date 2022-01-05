@@ -1,1 +1,1 @@
-## Estudo da formação FRONTEND alura
+## Estudos de HTML e CCS da formação FRONTEND alura
