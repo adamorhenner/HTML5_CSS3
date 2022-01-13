@@ -28,6 +28,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #C78C19;
+}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
