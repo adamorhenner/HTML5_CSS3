@@ -159,10 +159,10 @@ td, th {
 }
 
 .titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
 .principal{
@@ -235,6 +235,13 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 1;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+    transition: 400ms;
+
 }
 
 
