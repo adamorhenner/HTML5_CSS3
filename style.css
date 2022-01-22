@@ -3,7 +3,7 @@ body{
 }
 
 header {
-	background: #BBBBBB;
+	background: #363636;
 	padding: 20px 0;
 }
 
@@ -26,7 +26,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -247,4 +247,24 @@ td, th {
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+
 }
