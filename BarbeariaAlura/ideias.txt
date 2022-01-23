@@ -1,0 +1,3 @@
+- beneficios nomes com animação de scala
+
+- usar z-index(add novas img)
