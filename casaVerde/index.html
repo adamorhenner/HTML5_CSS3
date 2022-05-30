@@ -6,15 +6,26 @@
         <title>Home | Casa Verde</title>
         <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/base/base.css">
+        <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
         <link rel="stylesheet" href="assets/css/componentes/botoes.css">
         <link rel="stylesheet" href="assets/css/componentes/input.css">
         <link rel="stylesheet" href="assets/css/componentes/cartao.css">
         <link rel="stylesheet" href="assets/css/componentes/item.css">
+        <link rel="stylesheet" href="assets/css/componentes/produtos.css">
+        <link rel="stylesheet" href="assets/css/componentes/video.css">
+
+
 
 
         
     </head>
     <body>
+        <header class="container cabecalho">
+            <img src="assets/img/logo.svg" alt="Logo da casa verde" class="cabecalho__logo">
+            <a href="#" aria-label="Meu Carrinho">
+                <img src="assets/img/icones/carrinho.svg" alt="icone do carrinho de compras" class="cabecalho__carrinho">
+            </a>
+        </header>
         <main class="container">
             <button class="botao">Assinar Newsletter</button>
             <input type="text" class="input input--icone input--email" placeholder="Insira seu e-mail"
@@ -39,6 +50,21 @@
                         <p>aguarde na sua casa</p>
                     </li>
                 </ul>
+            </article>
+
+            <article class="produto">
+                <img src="assets/img/produto-01.png" alt="Foto do produto" class="produto__imagem">
+                <div class="produto__conteudo">
+                    <h3 class="produto__titulo titulo--destaque">Ajuga reptans</h3>
+                    <p class="produto__preco">R$20,00</p>
+                    <a href="#" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
+                </div>
+            </article>
+            
+            <article class="cartao-de-video">
+                <div class="cartao-de-video__video"><img src="https://picsum.photos/278/252" alt="Banner do vídeo"></div>
+                <h3 class="cartao-de-video__titulo">Vídeo XYZ</h3>
+                <p>Publicado em Março de 2022</p>
             </article>
 
 
